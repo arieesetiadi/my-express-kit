@@ -1,5 +1,5 @@
 {
-    "name": "@arie/my-express-kit",
+    "name": "my-express-kit",
     "version": "1.0.3",
     "description": "A basic starter for an Express API",
     "main": "app.js",
