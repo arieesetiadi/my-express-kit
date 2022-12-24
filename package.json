@@ -1,14 +1,18 @@
 {
     "name": "my-express-kit",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "A basic starter for an Express API",
     "main": "app.js",
     "type": "module",
+    "bin": "./bin/cli.js",
     "scripts": {
         "start": "node src/app.js",
         "dev": "nodemon src/app.js"
     },
-    "keywords": [],
+    "keywords": [
+        "node",
+        "express"
+    ],
     "author": "Arie Setiadi",
     "license": "MIT",
     "dependencies": {
