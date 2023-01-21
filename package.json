@@ -1,28 +1,28 @@
 {
-    "name": "my-express-kit",
-    "version": "1.0.11",
-    "description": "A basic starter for an Express API",
-    "main": "app.js",
-    "type": "module",
-    "bin": "./bin/cli.js",
-    "scripts": {
-        "start": "node src/app.js",
-        "dev": "nodemon src/app.js"
-    },
-    "keywords": [
-        "node",
-        "express"
-    ],
-    "author": "Arie Setiadi",
-    "license": "MIT",
-    "dependencies": {
-        "cors": "^2.8.5",
-        "dotenv": "^16.0.1",
-        "express": "^4.18.1",
-        "helmet": "^5.1.0",
-        "morgan": "^1.10.0"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.16"
-    }
+  "name": "my-express-kit",
+  "version": "1.0.13",
+  "description": "A basic starter for an Express API",
+  "main": "app.js",
+  "type": "module",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Arie Setiadi",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }

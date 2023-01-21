@@ -22,7 +22,7 @@ const cloned = runCommand(cloneCommand);
 if (!cloned) process.exit(-1);
 
 // Degit / remove .git directory
-const degitCommand = `rm -rf !$/.git`;
+const degitCommand = `rm -rf ./${repoName}/.git`;
 const degit = runCommand(degitCommand);
 if (!degit) process.exit(-1);
 
