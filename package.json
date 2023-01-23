@@ -1,6 +1,6 @@
 {
   "name": "my-express-kit",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "A basic starter for an Express API",
   "main": "app.js",
   "type": "module",
