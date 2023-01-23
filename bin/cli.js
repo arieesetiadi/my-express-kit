@@ -20,4 +20,4 @@ const cloneCommand = `git clone --depth 1 https://github.com/ariesetiadi-sm/my-e
 const cloned = runCommand(cloneCommand);
 if (!cloned) process.exit(-1);
 
-console.log("Congratulations! Your express kit is ready, have a nice day :)");
+console.log("Congratulations! Your express kit is ready, have a nice work :)");
