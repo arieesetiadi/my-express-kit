@@ -12,6 +12,7 @@ import dotenv from "dotenv";
 5. Dotenv for ability to access file .env
 */
 
+// Import Routes
 import indexRoutes from "./routes/index.routes.js";
 
 // Config dotenv
@@ -27,6 +28,7 @@ app.use(cors());
 app.use(express.json());
 
 // Use main routes
+app.get("/", (req, res) => res.json("Express / ✨"));
 app.use("/api/v1", indexRoutes);
 
 // Start the app

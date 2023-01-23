@@ -3,10 +3,8 @@ import userRoutes from "./user.routes.js";
 
 const router = express.Router();
 
-// Starter route
-router.get("/", (req, res) => res.json("My Express Kit ⭐"));
-
-// Use another routes
+// Use Routes
+router.get("/", (req, res) => res.json("Express /api/v1 ✨"));
 router.use("/users", userRoutes);
 
 export default router;
